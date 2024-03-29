@@ -1,3 +1,12 @@
-.blue {
-    color: blue;
+.blue-nav {
+    background-color: #e2eff1;
+}
+
+.bg-blue {
+    background-color: #b6d5e1;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
 }
