@@ -1,5 +1,5 @@
 .blue-nav {
-    background-color: #e2eff1;
+    background-color: #65799b;
 }
 
 .bg-blue {
@@ -9,4 +9,16 @@
 .center {
     display: flex;
     justify-content: center;
+}
+
+nav {
+    position: fixed;
+}
+
+.about {
+    background-color: #e2eff1;
+}
+
+.text-white {
+    color: white
 }
