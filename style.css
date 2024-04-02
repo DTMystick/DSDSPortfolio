@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+}
+body{
+    background-color: #E2EFF1;
+}
+
+.blue-nav {
+    background-color: #65799B;
+}
+.parallax {
+    /* The image used */
+    background-image: url("img/rg.avif");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  body, html {
+    height: 100%;
+  }
+  .nav {
+position: fixed;
+top:0;
+width: 100%;
+overflow: hidden;
+
+  }
+  .main {
+    margin-top: 30px;
+  }
