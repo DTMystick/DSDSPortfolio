@@ -1,0 +1,75 @@
+.accueil, .resume, .projet, .formulaire {
+    background-color: #E2EFF1;
+}
+
+body {
+    color: #555273;
+}
+
+.accueil h1{
+    font-size: 120px;
+}
+
+.accueil h2{
+    font-size: 60px;
+}
+
+section, header {
+    height: 1117px;
+}
+
+.blue-nav {
+    background-color: #65799B;
+}
+
+.about .center {
+    display: flex;
+    justify-content: center;
+}
+
+.about, .formExp, .loisir {
+    background-color: #B6D5E1;
+}
+
+.accueil {
+    color: #E2EFF1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* The image used */
+    background-image: url("./Images/parallax.jpg");
+  
+    /* Set a specific height */
+    height: 1117px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.formulaire .container {
+    border-radius: 10px; /* Bord arrondi du conteneur */
+    padding: 20px; /* Espacement intérieur du conteneur */
+}
+
+.form-control {
+    background-color: #f8f9fa; /* Couleur de fond des champs de formulaire */
+    color: #495057; /* Couleur du texte des champs de formulaire */
+}
+
+.btn-primary {
+    background-color: #65799b; /* Couleur de fond du bouton principal */
+    border-color: #6c757d; /* Couleur de la bordure du bouton principal */
+}
+
+.btn-primary:hover {
+    background-color: #65799b; /* Couleur de fond du bouton principal au survol */
+    border-color: #495057; /* Couleur de la bordure du bouton principal au survol */
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.25rem #65799b(108, 117, 125, 0.5); /* Ombre du bouton principal lorsqu'il est sélectionné */
+}
