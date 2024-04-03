@@ -14,6 +14,10 @@ body {
     font-size: 60px;
 }
 
+.profil{
+    width: 100%;
+}
+
 section, header {
     height: 1117px;
 }
