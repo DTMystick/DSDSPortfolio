@@ -97,3 +97,37 @@ p {
     box-shadow: 0 0 0 0.25rem #65799b(108, 117, 125, 0.5); /* Ombre du bouton principal lorsqu'il est sélectionné */
 }
 
+.animate__slideInLeft {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
+
+  .animate__slideInRight {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce; 
+    animation-duration: 2s; 
+  }
+
+  .animate__flip {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce; 
+    animation-duration: 2s; 
+  }
+
+  /* This only changes this particular animation duration */
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+  }
+  
+  /* This changes all the animations globally */
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
