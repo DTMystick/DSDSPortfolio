@@ -1,9 +1,25 @@
-.my-element {
+.animate__slideInLeft {
     display: inline-block;
     margin: 0 0.5rem;
   
     animation: bounce; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 2s; /* don't forget to set a duration! */
+  }
+
+  .animate__slideInRight {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce; 
+    animation-duration: 2s; 
+  }
+
+  .animate__flip {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce; 
+    animation-duration: 2s; 
   }
 
   /* This only changes this particular animation duration */
