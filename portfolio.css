@@ -14,6 +14,7 @@ body {
     font-size: 60px;
 }
 
+
 .profil{
     width: 100%;
 }
@@ -33,6 +34,24 @@ section, header {
 
 .about, .formExp, .loisir {
     background-color: #B6D5E1;
+}
+
+h3 {
+    font-size: 15px;
+    border: 1px #65799b solid;
+    background-color: #65799b;
+    color: #B6D5E1;
+    width: 13%;
+    border-radius: 10%;
+}
+
+h4 {
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 15px;
 }
 
 .accueil {
@@ -77,3 +96,11 @@ section, header {
 .btn-primary:focus {
     box-shadow: 0 0 0 0.25rem #65799b(108, 117, 125, 0.5); /* Ombre du bouton principal lorsqu'il est sélectionné */
 }
+
+/* .nav1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255,255,255,.9);
+  } */
